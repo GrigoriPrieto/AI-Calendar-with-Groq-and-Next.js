@@ -61,9 +61,13 @@ El proyecto utiliza un System Prompt dinámico que inyecta la fecha y hora actua
     
 8. **Resultado y ejemplo en acción**
 
-![Resultado de la página](image.png)
+<img width="1918" height="819" alt="image" src="https://github.com/user-attachments/assets/cd42cce9-b598-4329-8c07-7fbf26c9a910" />
 
-![Texto de prueba](image-1.png)
 
-![Agendado con éxito](image-2.png)
+<img width="1919" height="815" alt="image" src="https://github.com/user-attachments/assets/04fd6a7f-9ba3-487b-b4c3-5004e7c99605" />
+
+
+<img width="1915" height="815" alt="image" src="https://github.com/user-attachments/assets/73c47a63-dbac-4384-b8af-6a5d3c504979" />
+
+
 
