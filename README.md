@@ -35,26 +35,35 @@ Un calendario inteligente desarrollado con **Next.js 15** que utiliza Inteligenc
 
 3. **Configurar variables del entorno**
     Crea un archivo **.env.local** en la raiz y añade tu clave de Groq:
-    ´´´bash
+
+    ```bash
     GROQ_API_KEY=tu_api_key_aqui
 
 4. **Ejecutar en modo desarrollo:**
-    ´´´bash
+    ```bash
     npm run dev
 
     Abre http://localhost:3000 en tu navegador
     
-**💡 Cómo funciona**
-    El proyecto utiliza un System Prompt dinámico que inyecta la fecha y hora actual en cada petición. Esto permite que modelos de lenguaje (LLMs) que normalmente no tienen noción del tiempo puedan entender conceptos relativos como "mañana", "el lunes que viene" o "dentro de dos horas".
-
-**Ejemplo de la lógica del servidor**
-    ´´´TypeScript
+5. **💡 Cómo funciona**
     
-const now = new Date();
-const dateReference = `Hoy es ${now.toLocaleDateString()}`;
-// ... la IA recibe este contexto para calcular las fechas ISO
+El proyecto utiliza un System Prompt dinámico que inyecta la fecha y hora actual en cada petición. Esto permite que modelos de lenguaje (LLMs) que normalmente no tienen noción del tiempo puedan entender conceptos relativos como "mañana", "el lunes que viene" o "dentro de dos horas".
 
-**Licencia**
+6. **Ejemplo de la lógica del servidor**
+    ```typescript
+
+    const now = new Date();
+    const dateReference = `Hoy es ${now.toLocaleDateString()}`;
+    // ... la IA recibe este contexto para calcular las fechas ISO
+
+7. **Licencia**
     Este proyecto es de código abierto y está bajo la licencia MIT.
     
+8. **Resultado y ejemplo en acción**
+
+![Resultado de la página](image.png)
+
+![Texto de prueba](image-1.png)
+
+![Agendado con éxito](image-2.png)
 
