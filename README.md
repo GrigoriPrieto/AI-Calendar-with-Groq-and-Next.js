@@ -1,4 +1,4 @@
-# ✨ Smart Planner AI
+# ✨ AI Smart Planner
 
 Un calendario inteligente desarrollado con **Next.js 15** que utiliza Inteligencia Artificial (**Llama 3 vía Groq**) para interpretar lenguaje natural y agendar eventos automáticamente.
 
@@ -50,6 +50,7 @@ Un calendario inteligente desarrollado con **Next.js 15** que utiliza Inteligenc
 El proyecto utiliza un System Prompt dinámico que inyecta la fecha y hora actual en cada petición. Esto permite que modelos de lenguaje (LLMs) que normalmente no tienen noción del tiempo puedan entender conceptos relativos como "mañana", "el lunes que viene" o "dentro de dos horas".
 
 6. **Ejemplo de la lógica del servidor**
+   
     ```typescript
 
     const now = new Date();
@@ -57,6 +58,7 @@ El proyecto utiliza un System Prompt dinámico que inyecta la fecha y hora actua
     // ... la IA recibe este contexto para calcular las fechas ISO
 
 7. **Licencia**
+   
     Este proyecto es de código abierto y está bajo la licencia MIT.
     
 8. **Resultado y ejemplo en acción**
@@ -68,6 +70,12 @@ El proyecto utiliza un System Prompt dinámico que inyecta la fecha y hora actua
 
 
 <img width="1915" height="815" alt="image" src="https://github.com/user-attachments/assets/73c47a63-dbac-4384-b8af-6a5d3c504979" />
+
+ ## **Futuras mejoras**
+
+    ❗Persistencia en LocalStorage/Database 
+   
+    ❗UI/UX Enhancements
 
 
 
